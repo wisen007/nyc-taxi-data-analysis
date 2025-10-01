@@ -74,7 +74,7 @@ This project analyzes **NYC taxi trip data (2017–2020)** to understand the imp
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/nyc dashboard.png)
+![Dashboard Screenshot](images/nyc-dashboard.png)
 
 ---
 
