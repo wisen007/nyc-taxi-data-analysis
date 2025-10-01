@@ -10,12 +10,23 @@ This project uses NYC Taxi trip data (2017–2020) to explore **trends in riders
 
 ---
 
-## 🎯 Objectives
-- Explore how the pandemic impacted NYC taxi trips.  
-- Compare trips, fares, and distances across 2017–2020.  
-- Provide **forecasts** using "with pandemic" vs. "without pandemic" scenarios.  
-- Allow interactive analysis by **location, day of the week, and time of day**.  
-- Build a clean, **user-friendly Power BI dashboard** to visualize the results.  
+# 🎯 Project Objectives  
+
+This project analyzes **NYC taxi trip data (2017–2020)** to understand the impact of the COVID-19 pandemic and uncover key insights about rider behavior.  
+
+## Main Goals  
+- **Pandemic Impact** → Explore how the pandemic disrupted taxi trip volumes, fares, and distances.  
+- **Comparative Trends** → Compare trips, fares, and distances before and during the pandemic years.  
+- **Forecasting** → Build *“with pandemic”* vs. *“without pandemic”* forecasting scenarios.  
+- **Key Metrics to Answer**:  
+  - What is the **average number of trips**?  
+  - What is the **average fare per trip**?  
+  - What is the **average distance traveled per trip**?  
+  - How will **trip volume change relative to last week**?  
+- **Demand Patterns**:  
+  - Which **days of the week** and **times of day** are busiest?  
+  - What are the **most popular pick-up and drop-off locations**?  
+- **Dashboard Design** → Deliver a clean, interactive, and **user-friendly Power BI dashboard** that allows filtering and exploration by **location, day of the week, and time of day**.  
 
 ---
 
@@ -37,7 +48,7 @@ This project uses NYC Taxi trip data (2017–2020) to explore **trends in riders
 - Joined trips with calendar and zone lookup tables.  
 
 ### 2. Data Modeling
-- Created a star schema:
+- Created a  schema:
   - `taxi_trips` fact table  
   - `calendar` dimension  
   - `pickup_zones` and `dropoff_zones` dimensions  
