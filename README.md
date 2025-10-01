@@ -74,7 +74,7 @@ This project analyzes **NYC taxi trip data (2017–2020)** to understand the imp
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](dashboard.png)
+![Dashboard Screenshot](images/nyc dashboard.png)
 
 ---
 
@@ -82,22 +82,13 @@ This project analyzes **NYC taxi trip data (2017–2020)** to understand the imp
 - Trips dropped massively in 2020 due to the pandemic.  
 - Average fare per trip slightly increased.  
 - Distance per trip remained stable.  
-- Fridays & Saturdays remained the busiest, even during downturn.  
+- Fridays & Saturdays remained the busiest, even during downturn.
+- Between 5pm and 7pm was the busiest times during almost all the weeks and this may be due to people returning home from work and other activities.
+- The least busiest times was between 3am to 5 am and after it begins to pickup showing the day had began for most people
+- East harlem north and east harlem south are the busiest pickup and drop off locations recording an about 13% of the total trips for the four years
 
 ---
 
-## ▶️ How to Reproduce
-1. Clone or download this repository.  
-2. Open `taxi_trips_dashboard.pbix` in **Power BI Desktop**.  
-3. Load the dataset (CSV or link provided).  
-4. Use the slicers to explore trips by week, day, hour, or location.  
-
----
-
-## 🚀 Next Steps
-- Add post-pandemic data (2021 onwards) to show recovery.  
-- Use Python/R for time-series forecasting.  
-- Automate dataset refresh in the Power BI Service.  
 
 ---
 
@@ -112,6 +103,7 @@ This project analyzes **NYC taxi trip data (2017–2020)** to understand the imp
 This project was created as part of the **Maven Analytics Data Challenge** and to showcase my ability to:  
 - Transform raw datasets into insights.  
 - Apply DAX for calculations and narratives.  
-- Build interactive dashboards for decision-making.  
+- Build interactive dashboards for decision-making.
+- This dashboard is a replica of the one by the winner Zoe Douglas which one the maven challenge in 2021
 
 ---
