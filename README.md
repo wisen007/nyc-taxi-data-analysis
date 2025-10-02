@@ -95,7 +95,7 @@ This project analyzes **NYC taxi trip data (2017–2020)** to understand the imp
 ## 🛠 Tech Stack
 - **Power BI** → data modeling, visualization, storytelling.  
 - **Power Query** → ETL (cleaning, transformations).  
-- **DAX** → measures, business logic, dynamic text.  
+- **DAX** → measures(WOW), business logic, dynamic text,.  
 
 ---
 
